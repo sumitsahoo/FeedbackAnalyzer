@@ -15,9 +15,9 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.EditText;
 import android.widget.RatingBar;
@@ -61,8 +61,6 @@ public class MainActivity extends AppCompatActivity {
         context = this;
 
         initViews();
-        setUpEventHandlers();
-
     }
 
     private void initViews() {
@@ -89,6 +87,16 @@ public class MainActivity extends AppCompatActivity {
         textViewSentimentScore = (TextView) findViewById(R.id.text_sentiment_score);
         textViewDetectedTopic = (TextView) findViewById(R.id.text_topic);
         textViewKeyPhrases = (TextView) findViewById(R.id.text_key_phrases);
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        // Setup Event Handlers when UI is visible to user
+
+        setUpEventHandlers();
 
     }
 
