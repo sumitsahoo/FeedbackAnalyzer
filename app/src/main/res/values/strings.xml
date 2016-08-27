@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Feedback Analyzer</string>
+    <string name="action_clear">Clear Analysis</string>
+    <string name="action_about">About</string>
+    <string name="enter_feedback">Please enter your feedback below and tap on analyse button to start the analysis</string>
+    <string name="analysis_result_header">Analysis Result</string>
+    <string name="wait_message">Analyzing, Please Wait ...</string>
+    <string name="close_bottom_sheet">Swipe down to close the result view</string>
+    <string name="about_dialog_title">About App</string>
+    <string name="about_dev">App Version : v1.0 (beta 04)\n\nDesigned and Developed by Sumit\n\nText Analysis is powered by Microsoft Cognitive API</string>
+    <string name="okay">OKAY</string>
+    <string name="dismiss">DISMISS</string>
+    <string name="unable_to_search">Unable to analyse at the moment. Please try again later.</string>
+    <string name="feedback_rating">Feedback Rating :</string>
+
+</resources>
